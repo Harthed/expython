@@ -5,7 +5,7 @@ from time import sleep
 # print('-=-' * 30)
 print('Vou escolher aleatóriamente um número de 0 a 5, tente adivinhar qual número eu escolhi!')
 # print('-=-' * 30)
-start = input('Aperte "Enter" para começar!')
+input('Aperte "Enter" para começar!')
 
 # print('-=-' * 10)
 print('Estou escolhendo um número...')
@@ -13,6 +13,7 @@ r = randrange(5)
 sleep(2)
 print('Escolhi!')
 sleep(1)
+
 x = int(input('Qual número você acha que eu escolhi? '))
 sleep(.5)
 if r == x:
